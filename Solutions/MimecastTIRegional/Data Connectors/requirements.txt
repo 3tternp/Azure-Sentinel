@@ -3,7 +3,8 @@
 azure-functions
 datetime
 regex
-requests~=2.25.1
+requests~=2.31.0
 msal~=1.9.0
 pytz
 azure-storage-blob
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
